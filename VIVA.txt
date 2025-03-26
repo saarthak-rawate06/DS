@@ -1,0 +1,222 @@
+ VIVA
+
+1. Libraries and Their Basic Functions:
+Libraries in Python simplify data science by providing built-in functions.
+
+NumPy: Works with arrays and mathematical operations.
+
+Pandas: Handles datasets (tables) efficiently for analysis.
+
+Matplotlib & Seaborn: Create plots, charts, and graphs.
+
+Scikit-learn: Provides machine learning models.
+
+TensorFlow & Keras: Builds and trains deep learning models.
+
+---------------------------------------------------------------
+2. K-Means Clustering (Till Cluster Plots):
+Groups similar data points into K clusters.
+
+Centroids: Each cluster has a center point.
+
+Algorithm:
+
+Randomly place centroids.
+
+Assign points to the nearest centroid.
+
+Recalculate centroid positions.
+
+Cluster Plot: Visualizes clusters in different colors.
+
+---------------------------------------------------------------
+3. Data Visualization:
+Helps understand data patterns and trends.
+
+Matplotlib: For basic plots like bar and line charts.
+
+Seaborn: For advanced plots like heatmaps and boxplots.
+
+Common Plots:
+
+Scatter Plot: Shows relationships.
+
+Histogram: Shows data distribution.
+
+Box Plot: Highlights outliers.
+
+
+---------------------------------------------------------------
+4. Logistic Regression (Till Confusion Matrix):
+Used for binary classification (yes/no outcomes).
+
+Equation: Uses the sigmoid function for probability (0 to 1).
+
+Confusion Matrix:
+
+TP: Correct positive predictions.
+
+TN: Correct negative predictions.
+
+FP: Wrongly predicted positive.
+
+FN: Wrongly predicted negative.
+
+
+---------------------------------------------------------------
+5. Support Vector Machine (SVM) (Till Confusion Matrix):
+SVM finds the best boundary to separate data points.
+
+Hyperplane: Divides classes.
+
+Margin: Distance between data points and the hyperplane.
+
+Confusion Matrix: Helps evaluate model performance.
+
+
+---------------------------------------------------------------
+6. K-Nearest Neighbors (kNN) (Till Confusion Matrix):
+Classifies points based on the nearest k neighbors.
+
+K Value: Number of neighbors to check.
+
+Distance Metrics:
+
+Euclidean (most common).
+
+Manhattan or Minkowski.
+
+Confusion Matrix: Evaluates accuracy.
+
+3 METHODS 
+Cross-Validation: Evaluates model performance.
+
+Elbow Method: Finds the optimal number of neighbors (K).
+
+Odd Value of K: Avoids tie in binary classification.
+
+These methods ensure that the kNN model is accurate, reliable, and well-tuned for real-world datasets.
+
+
+---------------------------------------------------------------
+7. Decision Tree (Till Confusion Matrix):
+Works like a series of if-else conditions.
+
+Splits Data: Based on feature importance.
+
+Leaf Nodes: Contain final classification or output.
+
+Confusion Matrix: Measures correct vs incorrect predictions.
+
+
+---------------------------------------------------------------
+8. Correlation Matrix Using Heatmap:
+Shows the relationship between variables.
+
+Values Range:
+
++1: Strong positive correlation.
+
+-1: Strong negative correlation.
+
+0: No correlation.
+
+Heatmap (Seaborn):
+
+Visualizes correlations using colors.
+
+
+---------------------------------------------------------------
+9. Data Preprocessing by Min-Max Normalization:
+Scales data to a range of 0 to 1.
+​
+ 
+​
+ 
+Why Needed:
+
+Keeps values consistent for models.
+
+
+---------------------------------------------------------------
+10. Data Preprocessing by Standardization:
+Scales data to have mean = 0 and standard deviation = 1.
+
+Formula:
+
+ 
+Why Needed:
+
+Good for models like SVM and kNN.
+
+
+---------------------------------------------------------------
+11. Data Analysis and Summary Using Data Processing Methods:
+Summarizes data with key statistics.
+
+Descriptive Statistics:
+
+Mean, Median, Mode: Central tendency.
+
+Standard Deviation, Variance: Spread of data.
+
+Insight:
+
+Identifies trends and outliers.
+
+
+---------------------------------------------------------------
+12. Simple ANN (Artificial Neural Network):
+Mimics how the brain works to handle complex problems.
+
+Structure:
+
+Input Layer: Takes features.
+
+Hidden Layer: Processes information.
+
+Output Layer: Gives the final result.
+
+Applications:
+
+Image recognition, predictions.
+
+
+---------------------------------------------------------------
+13. Random Forest (Till Accuracy):
+Combines multiple decision trees for better predictions.
+
+Works By:
+
+Creating random trees with random features.
+
+Majority vote or averaging results.
+
+Accuracy:
+
+Higher than a single decision tree.
+
+
+---------------------------------------------------------------
+14. Tokenization and Stemming in NLP:
+Used for processing text data.
+
+Tokenization: Splits text into words or sentences.
+
+Example: "I love Python" → ["I", "love", "Python"]
+
+Stemming: Cuts words to root form.
+
+Example: "Running", "Runs" → "Run"
+
+
+---------------------------------------------------------------
+15. Lemmatization in NLP:
+Similar to stemming but keeps meaningful forms.
+
+Example:
+
+"Am", "Is", "Are" → "Be"
+
+"Better" → "Good"
+

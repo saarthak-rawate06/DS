@@ -220,3 +220,24 @@ Example:
 
 "Better" → "Good"
 
+-------------------------------------------------------------------------
+K means - groupism according to similarity by using euclidean distance 
+Logistic regression - analyses relationship between 2 data factors where the goal is to predict the probability that and instinct belong to the class or not
+SVM - classification & prediction it is a part of regression
+
+KNN - lazy learner algo , dependent on k
+K decides how many neighbour points to select , 3 method - cross validation, elbow method & odd value of k.
+Decision tree - simple diagram that shows different choices and possible results helping you make decisions easy.
+
+Random forest - collection of decision trees 
+
+Standardization - pre processing techniques used to convert features of your dataset so that they have mean 0 and standard deviations 1 
+Formula =  z= xi - (meu) Mean/ omega(std)
+
+Normalisation - 
+
+K means & knn ka difference -  k means cluster discovery & label & KNN predicts the gathered cluster
+Ex :- k means - analog
+
+https://www.kaggle.com/code/prashant111/k-means-clustering-with-python
+
